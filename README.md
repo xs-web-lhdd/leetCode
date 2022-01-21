@@ -17,6 +17,10 @@
 138-复制带随机指针的链表
 86-分隔链表
 2-两数相加
+160-相交链表
+328-奇偶链表
+
+单链表的套路：https://mp.weixin.qq.com/s?__biz=MzAxODQxMDM0Mw==&mid=2247492022&idx=1&sn=35f6cb8ab60794f8f52338fab3e5cda5&scene=21#wechat_redirect
 
 #### 队列:
 622-设计循环队列
