@@ -21,6 +21,8 @@
 328-奇偶链表
 234-回文链表
 143-重排链表
+21-合并两个有序链表
+148-排序链表
 
 单链表的套路：https://mp.weixin.qq.com/s?__biz=MzAxODQxMDM0Mw==&mid=2247492022&idx=1&sn=35f6cb8ab60794f8f52338fab3e5cda5&scene=21#wechat_redirect
 
