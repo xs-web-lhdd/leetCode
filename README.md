@@ -25,6 +25,7 @@
 148-排序链表
 剑指 Offer 18. 删除链表的节点
 剑指 Offer 06. 从尾到头打印链表
+725-分隔链表
 
 单链表的套路：https://mp.weixin.qq.com/s?__biz=MzAxODQxMDM0Mw==&mid=2247492022&idx=1&sn=35f6cb8ab60794f8f52338fab3e5cda5&scene=21#wechat_redirect
 
@@ -53,3 +54,5 @@
 
 #### 二叉树：
 112-路径总和
+144-二叉树的前序遍历
+94-二叉树的中序遍历
