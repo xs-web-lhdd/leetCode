@@ -89,4 +89,8 @@ https://github.com/vortesnail/leetcode
 
 ##### 二分查找：
 50-Pow(x, n)
-69-x 的平方根 
+69-x 的平方根
+704-二分查找
+
+##### 查找表：
+1-两数之和
