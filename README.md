@@ -94,3 +94,5 @@ https://github.com/vortesnail/leetcode
 
 ##### 查找表：
 1-两数之和
+389-找不同
+350-两个数组的交集 II
