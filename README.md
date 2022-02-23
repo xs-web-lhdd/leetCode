@@ -98,5 +98,9 @@ https://github.com/vortesnail/leetcode
 350-两个数组的交集 II
 
 ##### 滑动窗口：
+教程: https://www.bilibili.com/video/BV14Q4y1P7Np?from=search&seid=17523386858009450182&spm_id_from=333.337.0.0
 239-滑动窗口最大值
 438-找到字符串中所有字母异位词
+76-最小覆盖子串
+3-无重复字符的最长子串
+209-长度最小的子数组
