@@ -114,3 +114,9 @@ https://github.com/vortesnail/leetcode
 76-最小覆盖子串
 3-无重复字符的最长子串
 209-长度最小的子数组
+
+##### 剑指Offer：
+剑指 Offer 24. 反转链表
+剑指 Offer 05. 替换空格
+剑指 Offer 58 - II. 左旋转字符串
+剑指 Offer 03. 数组中重复的数字
