@@ -120,3 +120,9 @@ https://github.com/vortesnail/leetcode
 剑指 Offer 05. 替换空格
 剑指 Offer 58 - II. 左旋转字符串
 剑指 Offer 03. 数组中重复的数字
+剑指 Offer 53 - I. 在排序数组中查找数字 I
+剑指 Offer 53 - II. 0～n-1中缺失的数字
+剑指 Offer 11. 旋转数组的最小数字
+面试题50. 第一个只出现一次的字符
+面试题32 - I. 从上到下打印二叉树
+剑指 Offer 32 - III. 从上到下打印二叉树 III
