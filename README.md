@@ -128,3 +128,6 @@ https://github.com/vortesnail/leetcode
 剑指 Offer 32 - III. 从上到下打印二叉树 III
 剑指 Offer 27. 二叉树的镜像
 剑指 Offer 28. 对称的二叉树
+剑指 Offer 17. 打印从1到最大的n位数
+剑指 Offer 21. 调整数组顺序使奇数位于偶数前面
+剑指 Offer 22. 链表中倒数第k个节点
