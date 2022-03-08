@@ -131,3 +131,6 @@ https://github.com/vortesnail/leetcode
 剑指 Offer 17. 打印从1到最大的n位数
 剑指 Offer 21. 调整数组顺序使奇数位于偶数前面
 剑指 Offer 22. 链表中倒数第k个节点
+剑指 Offer 39. 数组中出现次数超过一半的数字
+剑指 Offer 57. 和为s的两个数字
+剑指 Offer 57 - II. 和为s的连续正数序列
