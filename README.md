@@ -134,3 +134,5 @@ https://github.com/vortesnail/leetcode
 剑指 Offer 39. 数组中出现次数超过一半的数字
 剑指 Offer 57. 和为s的两个数字
 剑指 Offer 57 - II. 和为s的连续正数序列
+剑指 Offer 58 - I. 翻转单词顺序
+剑指 Offer 61. 扑克牌中的顺子
