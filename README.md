@@ -138,3 +138,5 @@ https://github.com/vortesnail/leetcode
 剑指 Offer 61. 扑克牌中的顺子
 剑指 Offer 07. 重建二叉树
 剑指 Offer II 029. 排序的循环链表
+剑指 Offer II 012. 左右两边子数组的和相等
+剑指 Offer II 019. 最多删除一个字符得到回文
