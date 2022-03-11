@@ -136,3 +136,5 @@ https://github.com/vortesnail/leetcode
 剑指 Offer 57 - II. 和为s的连续正数序列
 剑指 Offer 58 - I. 翻转单词顺序
 剑指 Offer 61. 扑克牌中的顺子
+剑指 Offer 07. 重建二叉树
+剑指 Offer II 029. 排序的循环链表
