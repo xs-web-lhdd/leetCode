@@ -140,3 +140,6 @@ https://github.com/vortesnail/leetcode
 剑指 Offer II 029. 排序的循环链表
 剑指 Offer II 012. 左右两边子数组的和相等
 剑指 Offer II 019. 最多删除一个字符得到回文
+剑指 Offer II 052. 展平二叉搜索树
+剑指 Offer II 056. 二叉搜索树中两个节点之和
+剑指 Offer 67. 把字符串转换成整数
