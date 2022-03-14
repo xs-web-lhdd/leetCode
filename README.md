@@ -143,3 +143,5 @@ https://github.com/vortesnail/leetcode
 剑指 Offer II 052. 展平二叉搜索树
 剑指 Offer II 056. 二叉搜索树中两个节点之和
 剑指 Offer 67. 把字符串转换成整数
+剑指 Offer 55 - II. 平衡二叉树
+剑指 Offer 34. 二叉树中和为某一值的路径
