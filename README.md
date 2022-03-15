@@ -92,7 +92,7 @@
 88-合并两个有序数组
 125-验证回文串
 163-缺失的区间
-
+150-逆波兰表达式求值
 
 ### 跟着某位佬刷：
 https://github.com/vortesnail/leetcode
@@ -145,3 +145,4 @@ https://github.com/vortesnail/leetcode
 剑指 Offer 67. 把字符串转换成整数
 剑指 Offer 55 - II. 平衡二叉树
 剑指 Offer 34. 二叉树中和为某一值的路径
+剑指 Offer II 037. 小行星碰撞
