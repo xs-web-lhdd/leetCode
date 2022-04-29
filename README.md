@@ -170,7 +170,7 @@
 https://github.com/vortesnail/leetcode
 - [x] 二分查找 已刷完<br/>
 - [x] 查找表 已刷完<br/>
-- [ ] 滑动窗口<br/>
+- [x] 滑动窗口<br/>
 - [x] 链表 已刷完<br/>
 - [ ] LRU 缓存机制<br/>
 - [X] 前缀和<br/>
@@ -209,6 +209,8 @@ https://github.com/vortesnail/leetcode
 76-最小覆盖子串
 3-无重复字符的最长子串
 209-长度最小的子数组
+剑指 Offer 59 - I. 滑动窗口的最大值
+剑指 Offer 59 - II. 队列的最大值
 
 ##### 剑指Offer：
 剑指 Offer 24. 反转链表
