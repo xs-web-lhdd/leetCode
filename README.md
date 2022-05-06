@@ -203,6 +203,7 @@ https://github.com/vortesnail/leetcode
 1-两数之和（二分法）
 1658-将 x 减到 0 的最小操作数
 475-供暖器
+81-搜索旋转排序数组 II(不排序的二分)
 
 ##### 查找表：
 1-两数之和
@@ -218,6 +219,7 @@ https://github.com/vortesnail/leetcode
 209-长度最小的子数组
 剑指 Offer 59 - I. 滑动窗口的最大值
 剑指 Offer 59 - II. 队列的最大值
+713-乘积小于 K 的子数组
 
 ##### 剑指Offer：
 剑指 Offer 24. 反转链表
