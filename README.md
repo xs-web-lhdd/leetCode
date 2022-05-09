@@ -197,6 +197,8 @@ https://github.com/vortesnail/leetcode
 542-01 矩阵<BFS>
 1091-二进制矩阵中的最短路径<BFS>
 752-打开转盘锁<BFS>
+剑指 Offer 13. 机器人的运动范围<BFS>
+130-被围绕的区域<DFS>
 
 ##### 递归与回溯:
 面试题 16.11. 跳水板
