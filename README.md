@@ -199,6 +199,8 @@ https://github.com/vortesnail/leetcode
 752-打开转盘锁<BFS>
 剑指 Offer 13. 机器人的运动范围<BFS>
 130-被围绕的区域<DFS>
+494-目标和<DFS>
+473-火柴拼正方形<DFS>
 
 ##### 递归与回溯:
 面试题 16.11. 跳水板
