@@ -206,6 +206,8 @@ https://github.com/vortesnail/leetcode
 
 ##### 单调栈：
 155-最小栈
+503-下一个更大元素 II
+901-股票价格跨度
 
 ##### 递归与回溯:
 面试题 16.11. 跳水板
@@ -242,6 +244,7 @@ https://github.com/vortesnail/leetcode
 713-乘积小于 K 的子数组
 220-存在重复元素 III
 187-重复的DNA序列
+30-串联所有单词的子串 --- 没过！
 
 ##### 剑指Offer：
 剑指 Offer 24. 反转链表
