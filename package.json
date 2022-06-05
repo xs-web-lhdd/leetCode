@@ -1,0 +1,18 @@
+{
+  "name": "leetCode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:xs-web-lhdd/leetCode.git",
+  "author": "凉风有信 <3042146237@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2"
+  }
+}
