@@ -6,6 +6,7 @@
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
+ * @solution 时间复杂度太高 O(n ** 2) 不可取
  */
  var moveZeroes = function(nums) {
   var count = 0
@@ -22,4 +23,8 @@
           res++
       }
   }
+
+  return nums
 };
+
+export default moveZeroes
