@@ -330,6 +330,13 @@ https://github.com/vortesnail/leetcode
 剑指 Offer II 037. 小行星碰撞
 剑指 Offer II 074. 合并区间
 剑指 Offer II 045. 二叉树最底层最左边的值<BFS>
+剑指 Offer 04. 二维数组中的查找
+剑指 Offer 09. 用两个栈实现队列
+剑指 Offer 10- I. 斐波那契数列
+剑指 Offer 12. 矩阵中的路径
+剑指 Offer 42. 连续子数组的最大和
+剑指 Offer 64. 求1+2+…+n
+剑指 Offer 65. 不用加减乘除做加法
 
 ##### 动态规划：哎！
 300-最长递增子序列<vue3源码中快速diff算法又涉及到>
