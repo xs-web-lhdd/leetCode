@@ -256,6 +256,8 @@ https://github.com/vortesnail/leetcode
 473-火柴拼正方形<DFS>
 39-组合总和
 78-子集<DFS>
+46-全排列<DFS>
+47-全排列 II<DFS>
 
 ##### 单调栈：
 155-最小栈
