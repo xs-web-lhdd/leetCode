@@ -40,3 +40,5 @@ function path(sum, i, j, grid, length, size, arr) {
       return
   }
 }
+
+export default minPathSum

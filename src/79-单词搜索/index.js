@@ -63,3 +63,5 @@ function dfs(i, j, k, word, length, size, direction, map, board) {
 
   return false
 }
+
+export default exist
