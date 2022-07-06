@@ -6,6 +6,7 @@
 /**
  * @param {number[]} nums
  * @return {number}
+ * @solution 先求出前缀和,然后遍历前缀和的每一个数字 i ,找到当前遍历数字 i 前面最小的哪一个,然后做差,就是最大子数组和
  */
  var maxSubArray = function(nums) {
   // 生成前缀和:
