@@ -6,6 +6,7 @@
 /**
  * @param {number[]} nums
  * @return {number}
+ * @solution kkb
  */
  var lengthOfLIS = function(nums) {
   var arr = new Array(nums.length).fill(1)

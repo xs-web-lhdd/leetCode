@@ -368,6 +368,8 @@ https://github.com/vortesnail/leetcode
 剑指 Offer 42. 连续子数组的最大和
 剑指 Offer 64. 求1+2+…+n
 剑指 Offer 65. 不用加减乘除做加法
+剑指 Offer 46. 把数字翻译成字符串
+剑指 Offer 14- I. 剪绳子
 
 ##### 动态规划：哎！
 62-不同路径<递归超时>

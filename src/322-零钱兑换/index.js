@@ -7,6 +7,7 @@
  * @param {number[]} coins
  * @param {number} amount
  * @return {number}
+ * @soluion kkb
  */
  var coinChange = function(coins, amount) {
   // arr 存的是每个钱数的用的硬币的最小个数
