@@ -11,12 +11,13 @@
  * @param {number} right
  * @return {ListNode}
  */
- var reverseBetween = function(head, left, right) {
-  if(!head) return null
+var reverseBetween = function (head, left, right) {
+  if (!head) return null
   // 创建一个虚拟头节点
   let hair = new ListNode(-1, head)
-  let pre = hair, cnt = right - left + 1
-  while(--left) {
+  let pre = hair,
+    cnt = right - left + 1
+  while (--left) {
     pre = pre.next
   }
   pre.next = reverseList(pre.next, cnt)
@@ -25,8 +26,9 @@
 };
 
 var reverseList = function (head, length) {
-  let pre = null, cur = head
-  while(length--) {
+  let pre = null,
+    cur = head
+  while (length--) {
     let next = cur.next
     cur.next = pre
     pre = cur
@@ -36,3 +38,9 @@ var reverseList = function (head, length) {
   return pre
 };
 
+function ListNode(val, next) {
+  this.val = (val === undefined ? 0 : val)
+  this.next = (next === undefined ? null : next)
+}
+
+export default reverseBetween
