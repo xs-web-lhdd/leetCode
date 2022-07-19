@@ -9,11 +9,12 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-var deleteDuplicates = function(head) {
+var deleteDuplicates = function (head) {
   if (!head) return head
-  var pre = head, cur = head.next
-  while(cur) {
-    if(pre.val === cur.val) {
+  var pre = head,
+    cur = head.next
+  while (cur) {
+    if (pre.val === cur.val) {
       cur = cur.next
       pre.next = cur
     } else {
@@ -22,6 +23,12 @@ var deleteDuplicates = function(head) {
     }
   }
 
-
   return head
 };
+
+function ListNode(val, next) {
+  this.val = (val === undefined ? 0 : val)
+  this.next = (next === undefined ? null : next)
+}
+
+export default deleteDuplicates

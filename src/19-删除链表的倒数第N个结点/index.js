@@ -10,16 +10,18 @@
  * @param {number} n
  * @return {ListNode}
  */
- var removeNthFromEnd = function(head, n) {
+var removeNthFromEnd = function (head, n) {
   // 判断 head 是否为空
   if (!head) return head
   // 
-  var hair = new ListNode(-1, head), pre = hair, cur = head
-  for(let i = 0; i < n; i++) {
+  var hair = new ListNode(-1, head),
+    pre = hair,
+    cur = head
+  for (let i = 0; i < n; i++) {
     cur = cur.next
   }
-  while(1) {
-    if(cur === null) break;
+  while (1) {
+    if (cur === null) break;
     cur = cur.next
     pre = pre.next
   }
@@ -27,3 +29,10 @@
 
   return hair.next
 };
+
+function ListNode(val, next) {
+  this.val = (val === undefined ? 0 : val)
+  this.next = (next === undefined ? null : next)
+}
+
+export default removeNthFromEnd

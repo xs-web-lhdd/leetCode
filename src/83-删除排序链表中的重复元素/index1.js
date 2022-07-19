@@ -27,17 +27,12 @@ var deleteDuplicates = function (head) {
         cur = cur.next
       }
       // 然后把pre的下一位指向cur的下一位，并把cur往后移一位
-      pre.next = cur.next
-      cur = cur.next
+      pre.next = cur
+      // 相比上题，就更改了两行代码:
+      //   pre.next = cur.next
+      //   cur = cur.next
     }
   }
 
   return hair.next
 };
-
-function ListNode(val, next) {
-  this.val = (val === undefined ? 0 : val)
-  this.next = (next === undefined ? null : next)
-}
-
-export default deleteDuplicates
