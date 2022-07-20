@@ -15,14 +15,17 @@
  * @param {number} x
  * @return {ListNode}
  */
-var partition = function(head, x) {
+var partition = function (head, x) {
   // 如果没有头节点直接返回
   if (!head) return head
   // 创建两个新的链表,一个是存小于x的节点,另一个是存大于等于x的节点
-  var small = new ListNode(), big = new ListNode()
-  var smallNode = small, bigNode = big, pre = head
-  while(pre) {
-    if(pre.val < x) {
+  var small = new ListNode(),
+    big = new ListNode()
+  var smallNode = small,
+    bigNode = big,
+    pre = head
+  while (pre) {
+    if (pre.val < x) {
       smallNode.next = pre
       smallNode = smallNode.next
       pre = pre.next
@@ -39,3 +42,10 @@ var partition = function(head, x) {
 
   return small.next
 };
+
+function ListNode(val, next) {
+  this.val = (val === undefined ? 0 : val)
+  this.next = (next === undefined ? null : next)
+}
+
+export default partition

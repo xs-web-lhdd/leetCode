@@ -16,14 +16,22 @@
  * @param {ListNode} headB
  * @return {ListNode}
  */
-var getIntersectionNode = function(headA, headB) {
+var getIntersectionNode = function (headA, headB) {
   if (headA === null || headB === null) {
-      return null;
+    return null;
   }
-  let pA = headA, pB = headB;
+  let pA = headA,
+    pB = headB;
   while (pA !== pB) {
-      pA = pA === null ? headB : pA.next;//链表A循环结束就循环链表B	
-      pB = pB === null ? headA : pB.next;//链表A循环结束就循环链表B	
+    pA = pA === null ? headB : pA.next; //链表A循环结束就循环链表B	
+    pB = pB === null ? headA : pB.next; //链表A循环结束就循环链表B	
   }
-  return pA;//当pA == pB时就是交点
+  return pA; //当pA == pB时就是交点
 };
+
+function ListNode(val, next) {
+  this.val = (val === undefined ? 0 : val)
+  this.next = (next === undefined ? null : next)
+}
+
+export default getIntersectionNode
