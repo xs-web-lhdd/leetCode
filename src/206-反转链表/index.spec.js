@@ -27,7 +27,6 @@ describe('206-反转链表', () => {
     const arr = [1, 2, 3, 4, 5]
     const list = getList(arr)
     const res = reverseList(list)
-    console.log(res)
     expect(res).toEqual({
       "next": {
         "next": {

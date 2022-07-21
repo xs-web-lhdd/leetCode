@@ -14,12 +14,13 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-var oddEvenList = function(head) {
+var oddEvenList = function (head) {
   if (head === null) {
     return head;
   }
   let evenHead = head.next;
-  let odd = head, even = evenHead;
+  let odd = head,
+    even = evenHead;
   while (even !== null && even.next !== null) {
     odd.next = even.next;
     odd = odd.next;
@@ -29,3 +30,5 @@ var oddEvenList = function(head) {
   odd.next = evenHead;
   return head;
 };
+
+export default oddEvenList

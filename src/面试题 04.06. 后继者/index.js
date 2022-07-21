@@ -15,24 +15,23 @@
  * @param {TreeNode} p
  * @return {TreeNode}
  */
- var inorderSuccessor = function(root, p) {
+var inorderSuccessor = function (root, p) {
   var arr = []
   mid(root, arr)
-  console.log(arr)
   var index = arr.indexOf(p.val)
-  var target = arr[index+1]
+  var target = arr[index + 1]
   var node = dfs(root, target)
   return node ? node : null
 };
 
 function dfs(root, target) {
-  if(!root) return false
-  if(root.val === target) return root
+  if (!root) return false
+  if (root.val === target) return root
   return dfs(root.left, target) || dfs(root.right, target)
 }
 
 function mid(root, arr) {
-  if(!root) return
+  if (!root) return
   mid(root.left, arr)
   arr.push(root.val)
   mid(root.right, arr)

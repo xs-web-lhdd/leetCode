@@ -16,12 +16,11 @@
  * @param {number} targetSum
  * @return {number}
  */
- var pathSum = function(root, targetSum) {
+var pathSum = function (root, targetSum) {
   var nodes = []
   traverse(root, nodes)
-  console.log(nodes)
   var count = 0
-  for(var i = 0; i < nodes.length; i++) {
+  for (var i = 0; i < nodes.length; i++) {
     var arr = []
     getPath(nodes[i], 0, targetSum, arr)
     count += arr.length
@@ -31,17 +30,17 @@
 };
 
 function traverse(root, nodes) {
-  if(!root) return
+  if (!root) return
   nodes.push(root)
   root.left && traverse(root.left, nodes)
   root.right && traverse(root.right, nodes)
 }
- 
+
 function getPath(root, sum, targetSum, arr) {
-  if(!root) return false
+  if (!root) return false
   sum += root.val
-  
-  if(sum === targetSum) arr.push(1)
+
+  if (sum === targetSum) arr.push(1)
 
   root.left && getPath(root.left, sum, targetSum, arr)
   root.right && getPath(root.right, sum, targetSum, arr)
