@@ -14,12 +14,15 @@
  * @param {ListNode} head
  * @return {number[]}
  */
-var reversePrint = function(head) {
-  var arr = [], cur = head
-  while(cur) {
+var reversePrint = function (head) {
+  var arr = [],
+    cur = head
+  while (cur) {
     arr.push(cur.val)
     cur = cur.next
   }
 
   return arr.reverse()
 };
+
+export default reversePrint
