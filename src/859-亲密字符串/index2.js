@@ -8,15 +8,17 @@
  * @param {string} goal
  * @return {boolean}
  */
- var buddyStrings = function(s, goal) {
+var buddyStrings = function (s, goal) {
   //  判断 s和 goal的长度是否相等，不相等直接就返回 false
   if (s.length !== goal.length) return false
+  // 如果 s 和 goal 相等的时候不一定就是 true例如， ab ab 和 aa aa
   if (s === goal) {
     return s.length > new Set(goal).size
   }
-  var a = '', b = ''
-  for(let i = 0; i < s.length; i ++) {
-    if(s[i] !== goal[i]) {
+  var a = '',
+    b = ''
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] !== goal[i]) {
       a += s[i]
       b += goal[i]
     }
@@ -24,3 +26,5 @@
 
   return a.length === 2 && a[0] === b[1] && b[0] === a[1]
 };
+
+export default buddyStrings
