@@ -7,12 +7,13 @@
  * @param {string} s
  * @return {string}
  */
-var minRemoveToMakeValid = function(s) {
-  var left = [], right = []
-  for(let i = 0; i < s.length; i++) {
-    if(s[i] === '(') left.push(i)
-    if(s[i] === ')') {
-      if(left.length) {
+var minRemoveToMakeValid = function (s) {
+  var left = [],
+    right = []
+  for (let i = 0; i < s.length; i++) {
+    if (s[i] === '(') left.push(i)
+    if (s[i] === ')') {
+      if (left.length) {
         left.pop()
       } else {
         right.push(i)
@@ -20,10 +21,13 @@ var minRemoveToMakeValid = function(s) {
     }
   }
 
-  var str = [...s], del = left.concat(right)
-  for(let i = 0; i < del.length; i++) {
+  var str = [...s],
+    del = left.concat(right)
+  for (let i = 0; i < del.length; i++) {
     str[del[i]] = ''
   }
 
   return str.join('')
 };
+
+export default minRemoveToMakeValid

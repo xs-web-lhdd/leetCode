@@ -8,11 +8,12 @@
  * @param {number[]} popped
  * @return {boolean}
  */
-var validateStackSequences = function(pushed, popped) {
-  var stack = [], cur = 0
-  for(item of pushed) {
+var validateStackSequences = function (pushed, popped) {
+  var stack = [],
+    cur = 0
+  for (var item of pushed) {
     stack.push(item)
-    while(stack[stack.length - 1] === popped[cur] && stack.length) {
+    while (stack[stack.length - 1] === popped[cur] && stack.length) {
       stack.pop()
       cur++
     }
@@ -20,3 +21,5 @@ var validateStackSequences = function(pushed, popped) {
 
   return !stack.length
 };
+
+export default validateStackSequences
