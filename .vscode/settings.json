@@ -1,3 +1,7 @@
 {
-  "editor.codeLensFontFamily": "Consolas, 'Courier New', monospace"
+  "editor.codeLensFontFamily": "Consolas, 'Courier New', monospace",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "python.formatting.provider": "none"
 }
